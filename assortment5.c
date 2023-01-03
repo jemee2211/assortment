@@ -1,17 +1,17 @@
-#include <stdio.h>  
+#include<stdio.h>  
 
 main(){
 	int i,n;
     int a[i];
 
-    printf("Enter size :- ");
-    scanf("%i", &n);
+    printf("Enter size :");
+    scanf("%d", &n);
 
     printf("Enter element : \n");
 
 	for(i=0; i<n; i++){
 
-        scanf("%i", &a[i]);
+        scanf("%d", &a[i]);
 
 	}
 
@@ -21,10 +21,9 @@ main(){
 
         if(a[i]%2 == 0){
 
-            printf("%i\n", a[i]);
+            printf("%d\n", a[i]);
 
 		}
-
-    }   
-
+      printf("%d\n",a[i]);
+    }  
 }  

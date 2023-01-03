@@ -20,7 +20,7 @@ main(){
 		else{
 			printf("");
 		}
-	
+	printf("%d\n",a[i]<0);
 	}
 	
 	
