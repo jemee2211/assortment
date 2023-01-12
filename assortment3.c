@@ -80,13 +80,26 @@ main(){
 	printf("sum2: %d",sum2);
 	printf("\n");
 }
- int sum=0;
- 
-  {
-  	sum = sum1+sum2;
-  	printf("Total Sum: %d",sum);
+
+
+ int f;
+ int e;
+ int sum[f][e];
+ int d;
+    int z[d][d];
+  	for(f=0; f<d; f++){
+		for(e=0; e<d; e++){
+			
+	    sum[f][e] = a[r][c]+b[i][j];
+  	printf("Total Sum: %d",sum[f][e]);
+		
+		}	
+		printf("sum: %d",sum[f][e]);
+	printf("\n");
+	}
+  
   	
-  }
+  
  
  	
 	
